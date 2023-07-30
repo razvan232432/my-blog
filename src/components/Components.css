@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -24,4 +28,31 @@ a {
     text-align: center;
     justify-content: center;
     padding-top: 170px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}
+
+.card-position {
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.card-image {
+    width: 450px;
+    height: 250px;
+}
+
+.card h2 {
+    float: inherit;
+    padding-top: 10px;
 }
