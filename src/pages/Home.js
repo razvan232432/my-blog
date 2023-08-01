@@ -2,7 +2,7 @@ import React from 'react'
 import Navigation from '../components/Navigation'
 import LatestPosts from '../components/LatestPosts'
 
-function Home() {
+const Home = () => {
   return (
     <div>
         <Navigation />
