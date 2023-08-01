@@ -56,3 +56,10 @@ a {
     float: inherit;
     padding-top: 10px;
 }
+
+.posts-position {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33.3333%;
+    gap: 80px;
+}
