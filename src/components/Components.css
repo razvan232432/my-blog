@@ -63,3 +63,21 @@ a {
     flex-basis: 33.3333%;
     gap: 80px;
 }
+
+/* posts  layout*/
+.post-layout {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+}
+
+.post-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-layout img {
+    width: 1000px;
+}
+
+
